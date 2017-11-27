@@ -2,7 +2,6 @@ html {
   font-family: Overpass, sans-serif;
   color: #fff;
   background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
-  margin: auto;
 }
 
 .btn {
@@ -20,8 +19,8 @@ html {
 }
 
 .border-unit {
-  border-top: 2px solid #fff;
-  border-bottom: 2px solid #fff;
+  border-top: 2px solid rgba(255, 255, 255, .3);
+  border-bottom: 2px solid rgba(255, 255, 255, .3);
 }
 
 @media only screen and (min-width: 60em) {
