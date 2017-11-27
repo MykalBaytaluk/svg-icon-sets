@@ -1,26 +1,12 @@
 html {
-  font-family: "Overpass", sans-serif;
-  min-height: 100%;
-}
-
-body {
-  background-image: linear-gradient(to bottom, #ff9500 0%, #ff5e3a 80%);
-}
-
-h1 {
+  font-family: Overpass, sans-serif;
   color: #fff;
-}
-
-h2 {
-  color: #fff;
-}
-
-p {
-  color: #fff;
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+  margin: auto;
 }
 
 .btn {
-  background: none;
+  color: #fff;
   border-style: solid;
   border-width: 2px;
   border-radius: 4px;
@@ -31,4 +17,20 @@ p {
   background-color: #fff;
   border-color: #fff;
   color: #ff5e3a;
+}
+
+.border-unit {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .border-unit {
+    border-top: none;
+    border-bottom: none;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+  }
+
 }
